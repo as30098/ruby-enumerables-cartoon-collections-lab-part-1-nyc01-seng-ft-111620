@@ -4,7 +4,7 @@ def greet_characters(array)
   # Print a custom greeting for each element
   greeting = ""
   i = 0 
-  while i < array.each do 
+  array.each do |item| 
     p "Hello " + array[i].to_s + "!"
   end 
   i += 1 
