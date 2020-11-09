@@ -5,7 +5,7 @@ def greet_characters(array)
   greeting = ""
   i = 0 
   while i < array.each do 
-    p "Hello " + array[i] + "!"
+    p "Hello " + array[i].to_s + "!"
   end 
   i += 1 
   greeting 
