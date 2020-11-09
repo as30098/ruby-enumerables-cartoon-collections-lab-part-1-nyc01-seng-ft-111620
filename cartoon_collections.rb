@@ -5,7 +5,7 @@ def greet_characters(array)
   greeting = ""
   i = 0 
   array.each do |item| 
-    p "Hello " + item + "!"
+    p Hello  #{item} + !
   end 
   i += 1 
   greeting 
